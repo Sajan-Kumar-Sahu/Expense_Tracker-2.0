@@ -1,0 +1,85 @@
+import {StyleSheet} from 'react-native';
+
+export default Styles = StyleSheet.create({
+  background: {
+    flex: 1,
+    backgroundColor: '#071611',
+  },
+  headerContainer: {
+    flex: 1,
+    flexDirection: 'row',
+    marginHorizontal: 10,
+    justifyContent: 'space-between',
+  },
+  iconView: {
+    height: 40,
+    width: 40,
+    borderRadius: 25,
+    backgroundColor: '#2A3934',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  categoryText: {
+    marginTop: 20,
+    marginStart: 10,
+    fontWeight: 'bold',
+    fontSize: 20,
+    color: 'white',
+  },
+  categoryNameText: {
+    fontSize: 30,
+    color: 'white',
+    color: 'black',
+    fontWeight: 'bold',
+  },
+  Shopping: {
+    height: 150,
+    width: 200,
+    borderRadius: 10,
+    marginRight: 20,
+    backgroundColor: '#ff006e',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  Food: {
+    height: 150,
+    width: 200,
+    borderRadius: 10,
+    marginRight: 20,
+    backgroundColor: '#3e1f47',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  HealthCare: {
+    height: 150,
+    width: 200,
+    borderRadius: 10,
+    marginRight: 20,
+    backgroundColor: '#5bc0be',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  Education: {
+    height: 150,
+    width: 200,
+    borderRadius: 10,
+    marginRight: 20,
+    backgroundColor: '#7209b7',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+
+  incomeCard: {
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    alignItems: 'center',
+  },
+  incomeCardContent: {
+    height: 80,
+    width: 180,
+    backgroundColor: '#2A3934',
+    borderRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
