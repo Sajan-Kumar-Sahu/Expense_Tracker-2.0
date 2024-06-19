@@ -5,6 +5,7 @@ import HomeScreen from '../Screens/HomeScreen/HomeScreen';
 import Transaction from '../Screens/TransactionScreen/Transaction';
 import Statistics from '../Screens/StatisticsScreen/Statistics';
 import Settings from '../Screens/SettingsScreen/Settings';
+import Ionicons from 'react-native-vector-icons/Ionicons';
 
 const TabNavigation = () => {
   const Tab = createBottomTabNavigator();

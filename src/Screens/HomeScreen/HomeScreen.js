@@ -9,6 +9,7 @@ import React from 'react';
 import Styles from './homeStyle';
 import Icons from 'react-native-vector-icons/FontAwesome6';
 import Icons2 from 'react-native-vector-icons/MaterialIcons';
+import homeStyle from './homeStyle';
 
 const HomeScreen = () => {
   return (
@@ -37,7 +38,7 @@ const HomeScreen = () => {
       </View>
       <Text style={Styles.categoryText}>Categories</Text>
       <ScrollView horizontal={true} style={{padding: 10}}>
-        <View style={HomeStyle.Shopping}>
+        <View style={homeStyle.Shopping}>
           <Text style={Styles.categoryNameText}>Shopping</Text>
         </View>
         <View style={Styles.Education}>
@@ -49,7 +50,7 @@ const HomeScreen = () => {
         <View style={Styles.Food}>
           <Text style={Styles.categoryNameText}>Food</Text>
         </View>
-        <View style={HomeStyle.Shopping}>
+        <View style={homeStyle.Shopping}>
           <Text
             style={{
               fontSize: 30,
@@ -60,7 +61,7 @@ const HomeScreen = () => {
             Shopping
           </Text>
         </View>
-        <View style={HomeStyle.Education}>
+        <View style={homeStyle.Education}>
           <Text
             style={{
               fontSize: 30,
@@ -71,7 +72,7 @@ const HomeScreen = () => {
             Education
           </Text>
         </View>
-        <View style={HomeStyle.HealthCare}>
+        <View style={homeStyle.HealthCare}>
           <Text
             style={{
               fontSize: 30,
@@ -82,7 +83,7 @@ const HomeScreen = () => {
             Health Care
           </Text>
         </View>
-        <View style={HomeStyle.Food}>
+        <View style={homeStyle.Food}>
           <Text
             style={{
               fontSize: 30,
@@ -105,8 +106,8 @@ const HomeScreen = () => {
         }}>
         This Month
       </Text>
-      <View style={HomeStyle.incomeCard}>
-        <View style={HomeStyle.incomeCardContent}>
+      <View style={homeStyle.incomeCard}>
+        <View style={homeStyle.incomeCardContent}>
           <Text style={{fontSize: 18, color: 'white', fontWeight: 'bold'}}>
             35,000,00
           </Text>
@@ -120,7 +121,7 @@ const HomeScreen = () => {
             Income
           </Text>
         </View>
-        <View style={HomeStyle.incomeCardContent}>
+        <View style={homeStyle.incomeCardContent}>
           <Text style={{fontSize: 18, color: 'white', fontWeight: 'bold'}}>
             36,000,00
           </Text>

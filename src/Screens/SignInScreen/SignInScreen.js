@@ -26,7 +26,7 @@ const SignInScreen = () => {
   useEffect(() => {
     GoogleSignin.configure({
       webClientId:
-        '151655826681-ji96u8cfm8b5hnevccs1hapjv5lm80ul.apps.googleusercontent.com',
+        '619988092314-qhpk3b347k7u7d2rd9umsefa12vioc6g.apps.googleusercontent.com',
     });
   }, []);
 

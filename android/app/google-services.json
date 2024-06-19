@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "619988092314",
+    "project_id": "moneta-2",
+    "storage_bucket": "moneta-2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619988092314:android:549986ca4e28e587b9e623",
+        "android_client_info": {
+          "package_name": "com.expense_tracker_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619988092314-vn5ifpqaqs305qomddp3cpmdvch6ee3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.expense_tracker_2",
+            "certificate_hash": "bb65c0a307fa1ff5d48268cf57c3526ec7a02b37"
+          }
+        },
+        {
+          "client_id": "619988092314-qhpk3b347k7u7d2rd9umsefa12vioc6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYhTh_4_o59kVqqR0zHaBhk6zxvrmb1fQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619988092314-qhpk3b347k7u7d2rd9umsefa12vioc6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
