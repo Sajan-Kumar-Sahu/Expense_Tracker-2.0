@@ -50,9 +50,10 @@ const TabNavigation = () => {
 
       return <IconComponent name={iconName} size={size} color={'#18FBB6'} />;
     },
-    tabBarActiveTintColor: 'black',
-    tabBarInactiveTintColor: 'black',
-    tabBarShowLabel:false,
+    tabBarActiveTintColor: '#18FBB6',
+    tabBarInactiveTintColor: 'grey',
+    tabBarShowLabel:true,
+    
     tabBarStyle: {
       height: 60,
       paddingTop: 2,

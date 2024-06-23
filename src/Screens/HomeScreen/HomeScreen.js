@@ -9,9 +9,13 @@ import React from 'react';
 import Styles from './homeStyle';
 import Icons from 'react-native-vector-icons/FontAwesome6';
 import Icons2 from 'react-native-vector-icons/MaterialIcons';
-import homeStyle from './homeStyle';
+import 'react-native-gesture-handler';
+import { createDrawerNavigator } from '@react-navigation/drawer';
+
+import homeStyle from './homeStyle'; 
 
 const HomeScreen = () => {
+  const Drawer = createDrawerNavigator();
   return (
     <ScrollView style={Styles.background}>
       <StatusBar barStyle="light-content" backgroundColor="#071611" />
@@ -91,7 +95,7 @@ const HomeScreen = () => {
               color: 'black',
               fontWeight: 'bold',
             }}>
-            Food
+            Food      
           </Text>
         </View>
       </ScrollView>
